@@ -28,7 +28,7 @@ const TabNavigator = createBottomTabNavigator({
       if(routeName === "WriteComplaint"){
         return(
           <Image
-          source={require("./assets/complaint.webp")}
+          source={require("./complaint.webp")}
           style={{width:40, height:40}}
         />
         )
@@ -37,7 +37,7 @@ const TabNavigator = createBottomTabNavigator({
       else if(routeName === "ReadComplaint"){
         return(
           <Image
-          source={require("./assets/readC.png")}
+          source={require("./readC.png")}
           style={{width:40, height:40}}
         />)
         
